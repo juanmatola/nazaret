@@ -1,0 +1,14 @@
+{
+  "name": "nazaret",
+  "version": "1.0.0",
+  "description": "web para panaderia nazaret",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juanma Tola",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
