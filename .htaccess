@@ -1,2 +1,4 @@
+Options +FollowSymLinks
 RewriteEngine on
-RewriteRule ^sucursales/$ sucursales.html [L]
+
+RewriteRule ^sucursales$ sucursales.html
