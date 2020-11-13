@@ -52,3 +52,13 @@ html{
     padding-top: 0;
     padding-bottom: 50px;
 }
+.products{
+    background-color: var(--secondary--color);
+    color: var(--primary--color);
+    padding: 50px 0px;
+}
+
+footer{
+    background-color: var(--primary--color);
+    color: var(--secondary--color);
+}
