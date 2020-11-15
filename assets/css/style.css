@@ -38,6 +38,7 @@ html{
     background-color: var(--primary--color);
     border-radius: 50%;
     z-index: 100 !important;
+    animation: fadein-bot 1s;
 }
 .home__over--container img{
     margin-top: 20px;
@@ -61,4 +62,16 @@ html{
 footer{
     background-color: var(--primary--color);
     color: var(--secondary--color);
+}
+
+/* efectos */
+@keyframes fadein-bot {
+    from{
+        opacity: 0;
+        margin-bottom: -200px;
+    }
+    to{
+        opacity: 1;
+        margin-bottom: 0px;
+    }
 }
