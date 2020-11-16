@@ -3,3 +3,6 @@
     color: var(--primary--color);
     padding-top: 115px;
 }
+.bg-secondary{
+    background-color: var(--primary--color) !important;
+}
