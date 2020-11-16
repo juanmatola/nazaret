@@ -1,12 +1,18 @@
 html{
     scroll-behavior: smooth;
 }
+.bg-secondary{
+    background-color: var(--primary--color) !important;
+}
 /* Variables */
 :root{
     --primary--color: #774111;
     --secondary--color: #f9e99f;
 }
 /* navbar */
+.navbar{
+    transition: .5s all;
+}
 .navbar-brand{
     max-width: 140px;
 }
