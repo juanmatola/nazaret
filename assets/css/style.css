@@ -9,6 +9,18 @@ html{
     --primary--color: #774111;
     --secondary--color: #f9e99f;
 }
+.btn-primary{
+    background-color: var(--secondary--color) !important;
+    color: var(--primary--color) !important;
+    border-color: var(--primary--color) !important;
+    border-radius: 30px;
+    transition: .5s all;
+}
+.btn-primary:hover{
+    background-color: var(--primary--color) !important;
+    color: var(--secondary--color) !important;
+    border-color: var(--secondary--color) !important;
+}
 /* navbar */
 .navbar{
     transition: .5s all;
