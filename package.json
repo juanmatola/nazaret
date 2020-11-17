@@ -9,7 +9,6 @@
   "author": "Juanma Tola",
   "license": "MIT",
   "dependencies": {
-    "animate.css": "^4.1.1",
     "bootstrap": "^4.5.3",
     "jquery": "^3.5.1"
   }
