@@ -1,4 +1,5 @@
 Options +FollowSymLinks
 RewriteEngine on
 
+RewriteRule ^productos$ productos.html
 RewriteRule ^sucursales$ sucursales.html
