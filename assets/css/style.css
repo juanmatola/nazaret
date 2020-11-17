@@ -35,6 +35,11 @@ html{
     border-bottom: solid 2px;
     border-bottom-color: var(--secondary--color) ;
 }
+.navbar-toggler svg {
+    color: var(--secondary--color);
+    width: 25px;
+    height: 25px;
+}
 /* home */
 .home{
     overflow-y: hidden;
